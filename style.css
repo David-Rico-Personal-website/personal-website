@@ -1,0 +1,12 @@
+body {
+  background-color: #eaf6f6;
+  margin: 20px;
+}
+
+.navbar {
+  display: inline block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
