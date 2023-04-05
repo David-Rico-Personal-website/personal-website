@@ -1,12 +1,100 @@
 body {
-  background-color: #eaf6f6;
-  margin: 20px;
+ background-color: white;
+ margin: auto;
+  
+
+}
+span{
+  float: left;
+  padding: 20px;
+}
+header{
+ 
+ font-size: 2rem;
+ background: rgb(38, 38, 43);
+ color: white;
+}
+nav{
+  text-align: right;
+  padding: 20px;
 }
 
-.navbar {
-  display: inline block;
-  position: fixed;
-  top: 0;
-  width: 100%;
+/* .navbar {
+ padding: 20px;
+ text-align: right;
+ background: rgb(38, 38, 43);
+ color: white;
+}  */
+a{
+  color: white;
 
+}
+
+
+#homePageImg{
+  float: left;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* padding: 20px; */
+  width: 210px;
+}
+
+/* .aboutMe{
+ margin-left: 20px;
+
+} */
+
+section{
+  /* margin: 20px; */
+  padding: 20px;
+  border-top: 1px solid;
+ 
+
+}
+
+main{
+  text-align: center;
+
+  
+}
+
+#welcomeGif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+h1{
+  background: linear-gradient(to bottom, #0087ca 0%, #0087ca 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: inherit;
+  text-decoration: none;
+}
+h1:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-15px);}}%3C/style%3E%3Cpath fill='none' stroke='%230087ca' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-size: auto 4px;
+}
+
+
+#imperialBeach{
+  float: right;
+  /* padding: 20px; */
+    padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 210px;
+}
+
+#adelanto{
+  float: left;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 210px;
 }
