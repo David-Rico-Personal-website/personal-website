@@ -25,6 +25,7 @@ header{
  font-size: 2rem;
  background: rgb(38, 38, 43);
  color: white;
+ max-height: 100px;
 }
 nav{
   text-align: right;
@@ -125,33 +126,36 @@ p{
 
 #picOfWalmart{
   /* float: left; */
-  padding-left: 5px;
-  padding-right: 20px;
+  /* padding-left: 5px; */
+  /* padding-right: 20px; */
   padding-bottom: 5px;
   padding-top: 5px;
   /* padding: 20px; */
-  width: 500px;
+  max-width: 500px;
 }
 
 .walmart{
   /* background-color: rgb(0, 255, 221); */
   padding-left: 30px;
   padding-right: 30px;
-  margin-right: 300px;
-  margin-left: 300px;
+  /* margin-right: 300px; */
+  /* margin-left: 300px; */
   text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
 #picOfAmazon{
   /* float: right; */
   /* padding: 20px; */
-  padding-left: 20px;
-  padding-right: 5px;
+  /* padding-left: 5px; */
+  /* padding-right: 5px; */
   padding-bottom: 5px;
   padding-top: 5px;
-  width: 500px;
+  max-width: 500px;
+ 
 
 }
 
@@ -159,58 +163,56 @@ p{
   /* background-color: rgb(123, 122, 168); */
   padding-left: 30px;
   padding-right: 30px;
-  margin-right: 300px;
-  margin-left: 300px;
+  /* margin-right: 300px; */
+  /* margin-left: 300px; */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 
 #picOfTomTeam{
-  padding-left: 20px;
-  padding-right: 5px;
+  /* padding-left: 20px; */
+  /* padding-right: 5px; */
   padding-bottom: 5px;
   padding-top: 5px;
-  width: 500px;
+  max-width: 500px;
 }
 
 .tomTeam{
   /* background-color: rgb(6, 145, 244); */
   padding-left: 30px;
   padding-right: 30px;
-  margin-right: 300px;
-  margin-left: 300px;
+  /* margin-right: 300px; */
+  /* margin-left: 300px; */
   text-align: center;
-}
-
-.centeredPrompt {
-  /**
-   * Lay out the children of this container with
-   * flexbox.
-   */
   display: flex;
-
-  /**
-   * Rotate the main axis so that the children
-   * are laid out vertically, the same as in the
-   * above "Side bar" example.
-   */
   flex-direction: column;
-
-  /**
-   * Instead of pushing the children apart, as in
-   * previous examples, we will group them together
-   * in the center of their container.
-   */
-  justify-content: center;
-
-  /**
-   * Align the children in the center, along
-   * the main axis. Because the direction is
-   * "column" this has a similar effect as setting
-   * text-align: center.
-   */
-  align-items: center;
-
-  min-height: 300px;
-  padding: 10px;
+  align-items: center
 }
 
+
+
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-areas: 
+  ". . ."
+  ". welcome ."
+  ". . .";
+  place-items: center;
+
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  grid-area: welcome;
+  /* align-items: center; */
+  /* justify-items: center; */
+  place-items: center;
+
+
+}
