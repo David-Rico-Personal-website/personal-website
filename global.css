@@ -30,6 +30,12 @@ main {
 
 footer {
   grid-area: Footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  
 }
 
 @media (max-width: 900px) {

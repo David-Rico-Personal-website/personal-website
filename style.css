@@ -32,6 +32,16 @@ nav{
   padding: 20px;
 }
 
+form{
+  display: grid;
+  /* align-items: end; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-self: center; */
+  justify-content: center;
+  
+}
+
 /* .navbar {
  padding: 20px;
  text-align: right;
@@ -226,4 +236,17 @@ p{
   place-items: center;
 
 
+}
+
+
+.facebook{
+  width: 30px;
+}
+
+.twitter{
+  width: 30px;
+}
+
+.youtube{
+  width: 30px;
 }
