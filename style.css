@@ -1,9 +1,8 @@
 body {
- background-color: white;
- margin: auto;  
-
+  background-color: white;
+  margin: auto;
 }
-span{
+span {
   float: left;
   padding-top: 20px;
   padding-left: 20px;
@@ -15,31 +14,25 @@ span{
   color: inherit;
   text-decoration: none;
 }
-span:hover{
+span:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-15px);}}%3C/style%3E%3Cpath fill='none' stroke='%230087ca' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-size: auto 4px;
 }
 
-header{
- 
- font-size: 2rem;
- background: rgb(38, 38, 43);
- color: white;
- max-height: 100px;
+header {
+  font-size: 2rem;
+  background: rgb(38, 38, 43);
+  color: white;
+  max-height: 100px;
 }
-nav{
+nav {
   text-align: right;
   padding: 20px;
 }
 
-form{
+form {
   display: grid;
-  /* align-items: end; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* align-self: center; */
   justify-content: center;
-  
 }
 
 /* .navbar {
@@ -48,26 +41,22 @@ form{
  background: rgb(38, 38, 43);
  color: white;
 }  */
-a{
+a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: inset 0 0 0 0 #54b3d6;
-  
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  
 
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-a:hover{
+a:hover {
   box-shadow: inset 200px 0 0 0 #54b3d6;
   color: white;
 }
 
-
-
-#homePageImg{
+#homePageImg {
   float: left;
   padding-left: 5px;
   padding-right: 20px;
@@ -82,31 +71,25 @@ a:hover{
 
 } */
 
-section{
+section {
   /* margin: 20px; */
   padding: 20px;
   margin: 20px;
   border-top: 1px solid;
- 
-
 }
 
-main{
+main {
   text-align: center;
-
-  
 }
 
-#welcomeGif{
+#welcomeGif {
   display: block;
   margin-left: auto;
   margin-right: auto;
   /* width: 50%; */
 }
 
-
-
-#imperialBeach{
+#imperialBeach {
   float: right;
   /* padding: 20px; */
   padding-left: 20px;
@@ -116,7 +99,7 @@ main{
   width: 210px;
 }
 
-#adelanto{
+#adelanto {
   float: left;
   padding-left: 5px;
   padding-right: 20px;
@@ -125,7 +108,7 @@ main{
   width: 210px;
 }
 
- a:link {
+a:link {
   text-decoration: none;
 }
 
@@ -141,11 +124,11 @@ a:active {
   text-decoration: none;
 }
 
-p{
+p {
   font-style: italic;
 }
 
-#picOfWalmart{
+#picOfWalmart {
   /* float: left; */
   /* padding-left: 5px; */
   /* padding-right: 20px; */
@@ -155,7 +138,7 @@ p{
   max-width: 500px;
 }
 
-.walmart{
+.walmart {
   /* background-color: rgb(0, 255, 221); */
   padding-left: 30px;
   padding-right: 30px;
@@ -165,10 +148,9 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-#picOfAmazon{
+#picOfAmazon {
   /* float: right; */
   /* padding: 20px; */
   /* padding-left: 5px; */
@@ -176,11 +158,9 @@ p{
   padding-bottom: 5px;
   padding-top: 5px;
   max-width: 500px;
- 
-
 }
 
-.amazonDelivery{
+.amazonDelivery {
   /* background-color: rgb(123, 122, 168); */
   padding-left: 30px;
   padding-right: 30px;
@@ -189,10 +169,10 @@ p{
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
-#picOfTomTeam{
+#picOfTomTeam {
   /* padding-left: 20px; */
   /* padding-right: 5px; */
   padding-bottom: 5px;
@@ -200,7 +180,7 @@ p{
   max-width: 500px;
 }
 
-.tomTeam{
+.tomTeam {
   /* background-color: rgb(6, 145, 244); */
   padding-left: 30px;
   padding-right: 30px;
@@ -209,44 +189,37 @@ p{
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
-
-
-
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr ;
-  grid-template-areas: 
-  ". . ."
-  ". welcome ."
-  ". . .";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    ". . ."
+    ". welcome ."
+    ". . .";
   place-items: center;
-
 }
 
-.welcome{
+.welcome {
   display: flex;
   flex-direction: column;
   grid-area: welcome;
   /* align-items: center; */
   /* justify-items: center; */
   place-items: center;
-
-
 }
 
-
-.facebook{
+.facebook {
   width: 30px;
 }
 
-.twitter{
+.twitter {
   width: 30px;
 }
 
-.youtube{
+.youtube {
   width: 30px;
 }
